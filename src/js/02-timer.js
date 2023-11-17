@@ -46,7 +46,7 @@ const options = {
       datetimePickerEL.disabled= true;
 
     timerID =  setInterval(() => {
-      const current = Date.now();
+      const currentTime = Date.now();
 
       //when the timer ends
       if (selectedDate < currentTime) {
